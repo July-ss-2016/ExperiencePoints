@@ -22,7 +22,7 @@ public class LevelUpListener implements Listener {
         Player player = event.getPlayer();
         String playerName = player.getName();
 
-        int temp = experiencePointsManager.getPoints(playerName) + (event.getNewLevel() - event.getOldLevel()) * settings.getLevelUpIncreaseExperiencePoints();
-
+        int temp = (event.getNewLevel() - event.getOldLevel()) * settings.getLevelUpIncreaseExperiencePoints();
+        experiencePointsManager.givePoints(playerName, temp);
     }
 }
