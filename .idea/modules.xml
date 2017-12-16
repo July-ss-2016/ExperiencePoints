@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExperiencePoints.iml" filepath="$PROJECT_DIR$/ExperiencePoints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AttributePoints.iml" filepath="$PROJECT_DIR$/AttributePoints.iml" />
     </modules>
   </component>
 </project>
